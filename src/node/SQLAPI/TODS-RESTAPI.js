@@ -18,7 +18,7 @@ http
 	const tableName = url.split('/')[1];
 	connection.connect().then(pool => { 
 		var conn=pool.request()
-		var string = 'SELECT top 5 * FROM '+tableName;
+		var string = 'SELECT top 5 * FROM TODS_DEMO.dbo.'+tableName;
 		console.log(string);
 		return conn.query(string)
  		}).then(result => {
