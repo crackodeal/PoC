@@ -1,8 +1,7 @@
 # Node.js
 
-Here are some PoC using Node.js for my projects. 
-I am a beginner with Node.js trying to utilise it for my needs.
+Here are some proofs of concept (PoCs) using Node.js for my projects. As a beginner with Node.js, I am exploring its potential to meet my needs.
 
 ## SQL API
 
-My first PoC to create simple and universal REST API for querying MS SQL tables 
+My first proof of concept (PoC) is to create a simple and universal REST API for querying MS SQL tables.
